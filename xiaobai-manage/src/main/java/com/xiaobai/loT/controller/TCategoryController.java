@@ -20,7 +20,7 @@ import com.xiaobai.common.utils.R;
 
 
 /**
- * 商品分类表
+ * 画作分类表
  *
  * @author chen
  * @email sunlightcs@gmail.com
