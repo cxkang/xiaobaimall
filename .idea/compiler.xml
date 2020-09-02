@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xiaobai-service-api" />
+        <module name="xiaobai-common" />
+        <module name="xiaobai-user" />
+        <module name="xiaobai-gateway" />
+        <module name="xiaobai-user-api" />
+        <module name="xiaobai-manage" />
+        <module name="xiaobai-user-oauth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xiaobai-service-api" target="1.8" />
+      <module name="xiaobai-shiro" target="1.8" />
+      <module name="xiaobai-user-api" target="1.8" />
+      <module name="xiaobai-user-oauth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xiaobai-gateway" options="-parameters" />
+      <module name="xiaobai-manage" options="-parameters" />
+      <module name="xiaobai-service-api" options="-parameters" />
+      <module name="xiaobai-shiro" options="-parameters" />
+      <module name="xiaobai-user" options="-parameters" />
+      <module name="xiaobai-user-api" options="" />
+      <module name="xiaobai-user-oauth" options="-parameters" />
+    </option>
+  </component>
+</project>
